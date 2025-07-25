@@ -10,8 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
     origin:[
-    'http://localhost:8100/api',
-    // 'https://filmapp-c9a6b.web.app',
+    'http://localhost:8100',
 ],
     methods: ['GET', 'POST', 'PUT', 'DELETE','OPTIONS'],
 }));
